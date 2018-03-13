@@ -1,2 +1,53 @@
-/* Move your styles here when you're ready to clean up your HTML file */
+html {
+  font-size: 24px;
+  }/* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+h1 {
+  font-family: cursive;
+}
+
+h2{
+  font-family: fantasy;
+}
+header {
+  border-bottom: 10px solid
+  black;
+}
+
+
+.item {
+  border: 5px solid black;
+}
+.odd {
+background-color: black; color: white;
+}
+.even {
+  background-color: grey;
+}
+.class-list {
+  list-style-type: square;
+}
+#item1 {
+  font-size: 30px;
+}
+#item2 {
+  text-align: right;
+}
+
+ol  li {
+  padding: 10px;
+  background-color: grey;
+}
+ol  li:nth-child(odd){
+
+  background-color: green;
+}
+a[title]:hover {
+  text-decoration: none;
+}
+#advanced-selectors ul li:hover {
+  background-color: yellow;
+}
+#advanced-selectors ul li:active {
+  background-color: red;
+}
